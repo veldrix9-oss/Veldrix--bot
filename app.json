@@ -1,0 +1,25 @@
+{
+  "name": "VELDRIX-BOT",
+  "description": "WhatsApp bot with pairing code",
+  "repository": "https://github.com/yourusername/veldrix-bot",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code (e.g., 255748529340)",
+      "required": true
+    },
+    "SESSION_ID": {
+      "description": "Optional base64 session string to reuse",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command prefix (default: !)",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
